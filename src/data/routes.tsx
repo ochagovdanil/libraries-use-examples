@@ -2,7 +2,7 @@ import { lazy } from 'react';
 
 const NotFound = lazy(() => import('@components/NotFound'));
 const Main = lazy(() => import('@components/Main'));
-const SWR_App = lazy(() => import('@components/SWR/App'));
+const SWR_App = lazy(() => import('@components/SWR/components/App'));
 const TANSTACK_QUERY_App = lazy(() => import('@components/TanStack-Query/App'));
 
 type RouteType = {

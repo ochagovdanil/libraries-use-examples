@@ -1,0 +1,39 @@
+{
+  "user": {
+    "userName": "CodeGenix"
+  },
+  "cart": {
+    "totalCost": "130$",
+    "products": [
+      "hotdog",
+      "pizza",
+      "extra sauce"
+    ]
+  },
+  "products": [
+    {
+      "id": "1",
+      "title": "IPhone"
+    },
+    {
+      "id": "2",
+      "title": "Laptop"
+    },
+    {
+      "id": "3",
+      "title": "Monitor"
+    },
+    {
+      "id": "4",
+      "title": "Speaker"
+    },
+    {
+      "title": "Microphone",
+      "id": "5"
+    },
+    {
+      "id": "060e",
+      "title": "Asus"
+    }
+  ]
+}

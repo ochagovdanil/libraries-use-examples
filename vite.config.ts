@@ -14,7 +14,6 @@ export default defineConfig({
 			'@components': path.resolve(__dirname, './src/components/'),
 			'@reducers': path.resolve(__dirname, './src/reducers/'),
 			'@contexts': path.resolve(__dirname, './src/contexts/'),
-			'@services': path.resolve(__dirname, './src/services/'),
 		},
 	},
 	server: {
