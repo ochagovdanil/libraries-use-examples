@@ -2,6 +2,9 @@ import { lazy } from 'react';
 
 const NotFound = lazy(() => import('@components/NotFound'));
 const Main = lazy(() => import('@components/Main'));
+const REACT_HOOK_FORM_App = lazy(
+	() => import('@components/React-Hook-Form/components/App')
+);
 const SWR_App = lazy(() => import('@components/SWR/components/App'));
 const TANSTACK_QUERY_App = lazy(() => import('@components/TanStack-Query/App'));
 
@@ -18,6 +21,10 @@ const routes: RouteType[] = [
 	{
 		path: '/',
 		component: () => <Main />,
+	},
+	{
+		path: '/react-hook-form',
+		component: () => <REACT_HOOK_FORM_App />,
 	},
 	{
 		path: '/swr',

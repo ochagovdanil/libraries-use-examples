@@ -13,6 +13,9 @@ const Main = () => {
 				TypeScript + TailwindCSS.
 			</p>
 			<div className='flex flex-wrap gap-4 justify-center my-4'>
+				<Link to='/react-hook-form' className='button-blue'>
+					React Hook Form (+Zod)
+				</Link>
 				<Link to='/swr' className='button-blue'>
 					SWR
 				</Link>
