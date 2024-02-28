@@ -1,4 +1,4 @@
-import { useCallback } from 'react';
+import { Fragment, useCallback } from 'react';
 import { useTodos } from '../services/queries';
 import { Todo } from '../types/todo';
 
@@ -21,21 +21,23 @@ const Todos = () => {
 				Want to read the list of 200 items?
 			</h2>
 			<ul className='ml-8'>
-				{data?.map((todos: Todo[]) =>
-					todos.map((todo: Todo, index: number) => (
-						<li key={index} className='list-disc'>
-							<p
-								className={`text-base ${
-									todo.completed
-										? 'text-gray-500'
-										: 'text-red-500 line-through'
-								}`}
-							>
-								{todo.title}
-							</p>
-						</li>
-					))
-				)}
+				{data?.map((todos: Todo[], index: number) => (
+					<Fragment key={index}>
+						{todos.map((todo: Todo, index: number) => (
+							<li key={index} className='list-disc'>
+								<p
+									className={`text-base ${
+										todo.completed
+											? 'text-gray-500'
+											: 'text-red-500 line-through'
+									}`}
+								>
+									{todo.title}
+								</p>
+							</li>
+						))}
+					</Fragment>
+				))}
 			</ul>
 			{isValidating ? (
 				<p className='text-base italic'>Loading...</p>
