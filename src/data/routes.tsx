@@ -6,7 +6,9 @@ const REACT_HOOK_FORM_App = lazy(
 	() => import('@components/React-Hook-Form/components/App')
 );
 const SWR_App = lazy(() => import('@components/SWR/components/App'));
-const TANSTACK_QUERY_App = lazy(() => import('@components/TanStack-Query/App'));
+const TANSTACK_QUERY_App = lazy(
+	() => import('@components/TanStack-Query/components/App')
+);
 
 type RouteType = {
 	path: string;

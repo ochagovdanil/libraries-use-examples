@@ -1,39 +1,63 @@
 {
-  "user": {
-    "userName": "CodeGenix"
-  },
-  "cart": {
-    "totalCost": "130$",
-    "products": [
-      "hotdog",
-      "pizza",
-      "extra sauce"
-    ]
-  },
-  "products": [
-    {
-      "id": "1",
-      "title": "IPhone"
-    },
-    {
-      "id": "2",
-      "title": "Laptop"
-    },
-    {
-      "id": "3",
-      "title": "Monitor"
-    },
-    {
-      "id": "4",
-      "title": "Speaker"
-    },
-    {
-      "title": "Microphone",
-      "id": "5"
-    },
-    {
-      "id": "060e",
-      "title": "Asus"
-    }
-  ]
+	"todos": [
+		{
+			"checked": true,
+			"title": "title1",
+			"description": "desc1",
+			"id": "1"
+		},
+		{
+			"checked": true,
+			"title": "title2",
+			"description": "desc2",
+			"id": "2"
+		},
+		{
+			"checked": true,
+			"title": "title3",
+			"description": "desc3",
+			"id": "3"
+		},
+		{
+			"checked": false,
+			"title": "title4",
+			"description": "desc4",
+			"id": "4"
+		},
+		{
+			"checked": true,
+			"title": "title5",
+			"description": "desc5",
+			"id": "5"
+		}
+	],
+	"user": {
+		"userName": "CodeGenix"
+	},
+	"cart": {
+		"totalCost": "130$",
+		"products": ["hotdog", "pizza", "extra sauce"]
+	},
+	"products": [
+		{
+			"id": "1",
+			"title": "IPhone"
+		},
+		{
+			"id": "2",
+			"title": "Laptop"
+		},
+		{
+			"id": "3",
+			"title": "Monitor"
+		},
+		{
+			"id": "4",
+			"title": "Speaker"
+		},
+		{
+			"title": "Microphone",
+			"id": "5"
+		}
+	]
 }
