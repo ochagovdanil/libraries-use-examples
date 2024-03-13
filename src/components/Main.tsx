@@ -22,6 +22,9 @@ const Main = () => {
 				<Link to='/tanstack-query' className='button-blue'>
 					TanStack Query (React Query)
 				</Link>
+				<Link to='/apolloql' className='button-blue'>
+					Apollo GraphQL
+				</Link>
 			</div>
 		</div>
 	);

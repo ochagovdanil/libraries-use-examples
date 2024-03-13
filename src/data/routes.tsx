@@ -9,6 +9,7 @@ const SWR_App = lazy(() => import('@components/SWR/components/App'));
 const TANSTACK_QUERY_App = lazy(
 	() => import('@components/TanStack-Query/components/App')
 );
+const APOLLOQL_APP = lazy(() => import('@components/apolloql/components/App'));
 
 type RouteType = {
 	path: string;
@@ -35,6 +36,10 @@ const routes: RouteType[] = [
 	{
 		path: '/tanstack-query',
 		component: () => <TANSTACK_QUERY_App />,
+	},
+	{
+		path: '/apolloql',
+		component: () => <APOLLOQL_APP />,
 	},
 ];
 
