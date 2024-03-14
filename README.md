@@ -5,3 +5,4 @@ This repo illustrates some libraries in action that I've come across while codin
 -   react-hook-form (+Zod)
 -   SWR
 -   TanStack Query (React Query)
+-   GraphQL + Apollo React Client
