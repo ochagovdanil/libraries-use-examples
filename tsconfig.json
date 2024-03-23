@@ -31,8 +31,11 @@
 			"@components/*": ["src/components/*"],
 			"@reducers/*": ["src/reducers/*"],
 			"@contexts/*": ["src/contexts/*"]
-		}
+		},
+
+		/* Jest and RTL testing support */
+		"esModuleInterop": true
 	},
-	"include": ["src"],
+	"include": ["src", "jest.setup.ts", "./jest"],
 	"references": [{ "path": "./tsconfig.node.json" }]
 }

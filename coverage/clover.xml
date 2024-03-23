@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1711210194364" clover="3.2.0">
+  <project timestamp="1711210194365" name="All files">
+    <metrics statements="27" coveredstatements="27" conditionals="6" coveredconditionals="6" methods="9" coveredmethods="9" elements="42" coveredelements="42" complexity="0" loc="27" ncloc="27" packages="1" files="3" classes="3"/>
+    <file name="App.tsx" path="D:\Programming Projects\libraries-demo\libraries-demo-use\src\components\Jest\components\App.tsx">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+    </file>
+    <file name="Counter.tsx" path="D:\Programming Projects\libraries-demo\libraries-demo-use\src\components\Jest\components\Counter.tsx">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="8" count="8" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="22" count="8" type="stmt"/>
+      <line num="51" count="2" type="stmt"/>
+    </file>
+    <file name="Login.tsx" path="D:\Programming Projects\libraries-demo\libraries-demo-use\src\components\Jest\components\Login.tsx">
+      <metrics statements="16" coveredstatements="16" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="26" type="stmt"/>
+      <line num="7" count="26" type="stmt"/>
+      <line num="8" count="26" type="stmt"/>
+      <line num="9" count="26" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="14" count="2" type="stmt"/>
+      <line num="16" count="2" type="stmt"/>
+      <line num="18" count="2" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="27" count="26" type="stmt"/>
+      <line num="38" count="4" type="stmt"/>
+      <line num="45" count="4" type="stmt"/>
+    </file>
+  </project>
+</coverage>

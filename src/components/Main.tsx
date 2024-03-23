@@ -25,6 +25,9 @@ const Main = () => {
 				<Link to='/apolloql' className='button-blue'>
 					Apollo GraphQL
 				</Link>
+				<Link to='/testing' className='button-blue'>
+					Jest + React Testing Library (RTL)
+				</Link>
 			</div>
 		</div>
 	);
