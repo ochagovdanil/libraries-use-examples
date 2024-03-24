@@ -7,7 +7,7 @@
 		"dev": "vite",
 		"fake-api": "json-server --watch db.json --port 3000",
 		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-		"test": "jest'",
+		"test": "jest",
 		"test-watch": "jest --watch",
 		"test-coverage": "jest --coverage --collectCoverageFrom='src/components/Jest/components/**/*.{ts,tsx}'"
 	},
