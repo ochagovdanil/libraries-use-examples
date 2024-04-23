@@ -7,3 +7,4 @@ This repo illustrates some libraries in action that I've come across while codin
 -   TanStack Query (React Query)
 -   GraphQL + Apollo React Client
 -   Jest + React Testing Library (RTL)
+-   MobX

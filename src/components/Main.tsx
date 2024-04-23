@@ -28,6 +28,9 @@ const Main = () => {
 				<Link to='/testing' className='button-blue'>
 					Jest + React Testing Library (RTL)
 				</Link>
+				<Link to='/mobx' className='button-blue'>
+					MobX
+				</Link>
 			</div>
 		</div>
 	);
